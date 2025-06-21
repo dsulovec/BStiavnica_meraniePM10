@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafy z ThingSpeak - Kanál 2969196</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        iframe {
+            border: 1px solid #ccc;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grafy z ThingSpeak kanála 2969196</h1>
+
+    <h2>Field 1</h2>
+    <iframe width="600" height="300"
+        src="https://thingspeak.com/channels/2969196/charts/1?days=7&average=60&bgcolor=%23ffffff&color=%23d62020&dynamic=true&type=line">
+    </iframe>
+
+    <h2>Field 2</h2>
+    <iframe width="600" height="300"
+        src="https://thingspeak.com/channels/2969196/charts/2?days=7&average=60&bgcolor=%23ffffff&color=%2300aaff&dynamic=true&type=line">
+    </iframe>
+
+    <h2>Field 3</h2>
+    <iframe width="600" height="300"
+        src="https://thingspeak.com/channels/2969196/charts/3days=7&average=60&?bgcolor=%23ffffff&color=%2390c940&dynamic=true&type=line">
+    </iframe>
+</body>
+</html>
